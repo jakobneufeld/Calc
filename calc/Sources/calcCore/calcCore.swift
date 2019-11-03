@@ -10,6 +10,9 @@ public final class CommandLineTool {
     public func run() throws {
         
         arguments.remove(at: 0)
+        if arguments.count == 2 {
+            print("Not enough arguments, must have 3. If you use -sqrt you can only have one arg")
+        }
         if arguments.count == 0 {
             print("""
  Usage \n calc #argument# #operation# #argument# -p [If you want to pipe] -d [Debug Mode] -sqrt for square root \n Glosary: \n argument: An argument is an Int or a float\n
