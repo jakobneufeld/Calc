@@ -1,1 +1,6 @@
-{"installationCommands":["touch supercalifragilisticexpialidiociuos"],"testCommands":[],"dependecyFiles":["https://github.com/JohnSundell/ShellOut.git"],"source":"https://github.com/JohnSundell/Files.git","name":"Files"}
+
+{
+"installationCommands":["echo MUHAHAHAHAHAAHa", "touch I"],
+"testCommands":["test -f I"],"dependecyFiles":["https://github.com/jakobneufeld/Swift-Adons.git"]
+,"source":"https://github.com/jakobneufeld/Calc.git","name":"Calc"
+}
